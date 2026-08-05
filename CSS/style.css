@@ -1,4 +1,10 @@
 
+.elemento-responsive {
+  /* El tamaño base se adapta con la pantalla: mínimo 1rem, ideal 2vw, máximo 1.8rem */
+  font-size: clamp(1rem, 2vw, 1.8rem);
+}
+
+
 /***Nav1***/
 .ResponsiveLetter {
   font-size: calc(0.5em + 1vw);
